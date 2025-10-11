@@ -4,7 +4,7 @@ fn main() {
 	let n:f64 = 3.0;
 
 	// depreciation formula
-	let a = p * (1.0 - (r / 100.0)).powf(n);
+	let a = p * ((1.0 - (r / 100.0)).powf(n));
 
-	println!("Value of TV after 3 years is {}",a);
+	println!("Value of TV after 3 years is ₦{:.2}",a);
 }

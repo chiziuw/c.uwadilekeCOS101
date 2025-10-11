@@ -1,10 +1,13 @@
 fn main() {
-    let principal: f64 = 520_000_000.0; // set principal value
-    let rate: f64 = 10.0; // set rate value
-    let time: f64 = 5.0; // set time value
+    let p: f64 = 520000000.0; // define principal value
 
-    let amount = principal * (1.0 + (rate / 100.0)).powf(time); // state formula
-    let compound_interest = amount - principal; // state main formula now lol
+    let r: f64 = 10.0; // define rate value
 
-    println!("The compound interest is: ₦{:.2}", compound_interest); // final answer
+    let t: f64 = 5.0; // define time value
+
+
+    let a = p * (1.0 + (r / 100.0)).powf(t); // state formula
+    let ci = a - p; // define main formula now
+
+    println!("The compound interest is: ₦{:.1}", ci); // final answer
 }
