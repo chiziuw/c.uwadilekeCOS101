@@ -1,13 +1,11 @@
 fn main() {
-    let mut count = 0;
+    let mut x = 0;
+    loop {
+        x+=1;
+        println!("x={}", x);
 
-    for num in 1..21 {
-        if num > 10{
-            println!("{}", num);
-            continue;
+        if x==15 {
+            break;
         }
-        count+=1;
-
     }
-    println!("The count of values greater than 10 (between 1 and 20) is: {}", count);
 }
