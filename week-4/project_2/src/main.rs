@@ -29,7 +29,7 @@ fn main() {
         }    
     }
     else {
-        incentive = 100_000;
+        incentive = 100000;
     }
     println!("\nThe employee's annual incentive is ₦{}", incentive);
 }
