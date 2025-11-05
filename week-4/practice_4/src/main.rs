@@ -2,19 +2,24 @@ use std::io;
 
 fn main()
 {
-    let mut input1 = String::new();
-    let mut input2 = String::new();
+    let mut a = String::new();
+    let mut b = String::new();
+    let mut c = String::new();
 
-    println!("Enter your name: ");
-    io::stdin().read_line(&mut input1).expect("Not a valid string");
+    println!("Enter the value of a: ");
+    io::stdin().read_line(&mut a).expect("Not a valid string");
+    let a:i32 = a.trim().parse().expect("Not a valid number");
 
-    println!("Enter your age: ");
-    io::stdin().read_line(&mut input2).expect("Not a valid string");
-    let age:i32 = input2.trim().parse().expect("Not a valid number");
+    println!("Enter the value of b: ");
+    io::stdin().read_line(&mut b).expect("Not a valid string");
+    let age:i32 = b.trim().bparse().expect("Not a valid number");
 
-    if age >= 18 {
-        println!("Welcoem to the party {}!", input1);
-    } else {
-        println!("Oops, you are not of age to enter the party {}", input1);
-    }
+    println!("Enter the value of c: ");
+    io::stdin().read_line(&mut c).expect("Not a valid string");
+    let age:i32 = c.trim().parse().expect("Not a valid number");
+
+    let root1 = (-b + sqrt(b.powf(2) - 4 * a * c)) / (2 * a)
+    let root2 = (-b - sqrt(b.powf(2) - 4 * a * c)) / (2 * a)
+
+    println!("root 1 is {} and root 2 is {}", root1, root2);
 }
