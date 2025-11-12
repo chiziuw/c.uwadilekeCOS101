@@ -8,7 +8,7 @@ fn main() {
     let price_w = 2_500.0;
     let mut total_cost = 0.0;
 
-    println!("\nWelcome to the PAU Cafe Ordering System!");
+    println!("\nWelcome to the PAU Cafetaria Ordering System! What woukd you like today?");
     loop {
         println!("\n------------------------------------");
         println!("\n           Menu                 Price
