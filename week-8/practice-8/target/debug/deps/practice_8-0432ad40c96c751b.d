@@ -1,0 +1,5 @@
+C:\Users\chiza\c.uwadilekeCOS101\week-8\practice-8\target\debug\deps\practice_8-0432ad40c96c751b.d: src\main.rs
+
+C:\Users\chiza\c.uwadilekeCOS101\week-8\practice-8\target\debug\deps\practice_8-0432ad40c96c751b.exe: src\main.rs
+
+src\main.rs:
