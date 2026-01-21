@@ -1,0 +1,8 @@
+Welcome to Rust Programming
+Week 9 - Rust File Input & Output
+Department of software engineering
+Hello Class
+This is the appendage to the document.
+Hello Class
+This is the appendage to the document.
+Mr Chudi should give me 20 marks and 10 dollars
